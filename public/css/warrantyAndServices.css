@@ -1,0 +1,64 @@
+.service-steps{
+	background:url(../assets/img/steps.png) left top no-repeat;
+	border:1px solid #404040;
+	padding:15px;
+	min-height:210px;
+}
+.service-step{
+	width:64px;
+	height:64px;
+	background-color:#fff;
+	border-radius:64px;
+	font-size:48px;
+	font-family: 'PTSansNarrow', sans-serif;
+	font-weight:bold;
+	text-align:center;
+	color:#a6a6a6;
+	line-height:64px;
+	float:left;
+	margin: 60px 0 0 25px;
+}
+.service-cap{
+	font-family: 'PTSansNarrow', sans-serif;
+	font-weight:bold;
+	font-size:22px;
+	margin-top:15px;
+}
+.service-desc, .service-cap{
+	margin-left:135px;
+	margin-right:10px;
+	margin-bottom:15px;
+	max-width:666px;
+}
+.warranty_parent {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+	margin-bottom: 4.875rem;
+}
+ul:not(.menu_navigation){
+display: flex;
+flex-direction: column;
+gap: 0.875rem;
+}
+
+p,li:not(.menu_navigation li),.service-desc{
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+    font-family: PTSansRegular;
+}
+.main_title{
+	margin-bottom: 20px;
+}
+  
+
+  @media screen and (max-w:390px) {
+	  .service-cap{
+		  font-size: 20px;
+	  }
+  }
+  @media screen and (max-width:380px) {
+   .service-cap{
+		  font-size: 20px;
+	  }
+}

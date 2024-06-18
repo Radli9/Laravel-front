@@ -1,0 +1,29 @@
+ul:not(.menu_navigation) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-bottom: 18px;
+}
+
+p,
+li:not(.menu_navigation li) {
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+    font-family: PTSansRegular;
+}
+
+.rmBusiness_block {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+p:not(.menu_navigation p) {
+    margin: 0 0 24px;
+}
+
+.main_title {
+    margin-bottom: 1.5rem;
+}

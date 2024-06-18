@@ -1,0 +1,134 @@
+div.steps {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.steps img {
+	margin-left: 35px;
+	margin-bottom: 35px;
+}
+
+@media (min-width: 700px) {
+	.steps img:first-child {
+		margin-left: 0px;
+	}
+}
+
+.logos img {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+.logos {
+	text-align: center;
+}
+
+
+
+table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 17px;
+	font-family: PTSansRegular;
+}
+
+.table th,
+.table td,
+.table>tbody>tr>td {
+	text-align: center;
+	border-top: 1px solid #DDDDDD;
+	line-height: 1.2;
+	padding: 8px;
+	vertical-align: top;
+ 	width: 15.625vw;
+	max-width: 300px;
+}
+
+.table th {
+	font-family: PTSansNarrowRegular;
+	font-weight: normal;
+	font-size: 21px;
+	background-color: #f2f2f2;
+}
+
+.table tr:first-child th {
+	border-top: none;
+}
+
+.table tr td:first-child,
+.table tr th:first-child {
+	text-align: right;
+	width: 15.625vw;
+	max-width: 300px;
+}
+
+.installmentImg {
+	padding-left: 15px;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+ul:not(.menu_navigation){
+display: flex;
+flex-direction: column;
+gap: 0.875rem;
+} 
+
+p,li:not(.menu_navigation li){
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+    font-family: PTSansRegular;
+}
+ul:not(.menu_navigation) {
+    margin-left: 25px;
+    padding-left: 25px;
+	margin: 18px 0 18px 25px;
+}
+p:not(.menu_navigation p){
+	margin: 0 0 24px;
+}
+.main_title{
+	text-align: center;
+	font-family: PTSansNarrowRegular;
+}
+ul li:not(.menu_navigation li) {
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+.secondary_title{
+	font-family: PTSansBold;
+}
+.petite {
+    font-size: 10px;
+	line-height: 12px;
+}
+.bold {
+    font-weight: bold;
+}
+main{
+	margin-bottom: 4.438rem;
+}
+
+
+
+@media screen and (max-width:992px) {
+	.installmentImg{
+		width: 84.615vw;
+		padding: unset;
+		display: flex;
+		margin: 0 auto 15px auto;
+	}
+	.table_parent{
+		width: 100%;
+		overflow-y: scroll;
+		margin-bottom: 21px;
+	}
+
+}

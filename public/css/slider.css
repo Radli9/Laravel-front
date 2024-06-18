@@ -1,0 +1,48 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    flex: 0 0 100%;
+    position: relative;
+}
+
+.skeleton {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    z-index: 2; /* Above the image until it loads */
+}
+
+.slider_img{
+    width: 100%;
+    display: block; /* Remove space below the image */
+    position: relative;
+    z-index: 1;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    z-index: 3;
+    border: none;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }

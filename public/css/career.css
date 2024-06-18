@@ -1,0 +1,21 @@
+.block,.career_section {
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem ;
+}
+.photo_career{
+display: flex;
+align-items: flex-start;
+padding-bottom: 1.5rem;
+max-width: 100%;
+}
+.photo_career img{
+  max-width: 50%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    flex: 1 1 45%; /* Allow images to grow and shrink, with a base width */
+    object-fit: cover; /* Ensure images cover their box without stretching */
+    border-radius: 10px;
+}
+main{
+    padding-bottom: 7rem;
+}

@@ -1,0 +1,36 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 14.659rem;
+}
+
+ .category_title {
+    display: inline-block; 
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .category_title::before {
+    content: url(../assets/svg/utilizationFee.svg);
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px; 
+  }
+
+  .category_title br {
+    display: none; 
+  }
+  p{
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+    font-family: PTSansRegular;
+}
+
+  @media (max-width: 1920px) {
+    .category_title br {
+      display: inline; 
+    }
+  }

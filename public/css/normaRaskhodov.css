@@ -1,0 +1,15 @@
+.category_title{
+    text-align: center;
+    align-items: baseline;
+}
+p, .main_points li{
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+    font-family: PTSansRegular;
+}
+.content_block{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 7.112vw;
+}

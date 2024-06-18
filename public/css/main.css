@@ -1,0 +1,43 @@
+.about_rm_01_block{
+    padding-top: 4rem;
+}
+.about{
+    padding-top: 2.688rem;
+}
+
+.desc_of_company{
+    font-family: PTSansBold;
+    font-size: 1.125rem;
+    line-height: 1.35rem;
+}
+
+.experience_year{
+    text-align: center;
+}
+.increase_img{
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px 0px #0000001A;
+}
+.about_text_content{
+    padding-top: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.125rem;
+}
+.statistics-block{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-bottom: 5.125rem;
+}
+@media screen and (max-width:992px) {
+    .about_text_content img{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    }
+}
